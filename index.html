@@ -1,6 +1,80 @@
 ---
 # Feel free to add content and custom Front Matter to this file.
 # To modify the layout, see https://jekyllrb.com/docs/themes/#overriding-theme-defaults
-
+title: "Lyon Sauvetage Metropole"
 layout: splash
+permalink: /
+classes: 
+  - landing
+header:   
+  overlay_color: 
+  overlay_filter: "0.1"
+  overlay_image: /assets/images/
+  og_image: "/assets/"
+  excerpt: "Nager \\| Sauver \\| Former"
+intro:
+  - excerpt: "**Lyon Sauvetage Métropole** .<br>
+  Vous souhaitez en savoir plus sur nous, c'est par [**ici**](/lsm/)."
+    
+feature_row1:
+  - image_path: /assets/images/Lion-vague_morphing.jpg
+    alt: "Section Sportive"
+    title: "Section Sportive"
+    excerpt: "Lyon Sauvetage Métropole est un club de natation sauvetage. Premier club de natation sauvetage de Lyon, LSM vous propose de (re)découvrir la natation sous un angle altruiste "
+    url: /section/
+    btn_label: "Nager pour sauver"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Lion-vague_morphing.jpg
+    alt: "Formations proposées par Lyon Sauvetage Métropole"
+    title: "Formations"
+    excerpt: "Lyon Sauvetage Métropole vous propose en collaboration avec Le Centre Départemental de Formation FPMNS du Rhône l'ensemble des formations de Sécurité Civile tant en sauvetage qu'en secourisme."
+    url: "/formations/"
+    btn_label: "Nos formations"
+    btn_class: "btn--primary"
+  - image_path: /assets/images/Lion-vague_morphing.jpg
+    alt: "La prévention de la noyade par Lyon Sauvetage Métropole"
+    title: "Prévention des Noyades"
+    excerpt: "La prévention des noyades est l'ADN de notre activité et de notre métier de Maître-Nageur Sauveteur."
+    url: "/prevention/"
+    btn_label: "Prévenir"
+    btn_class: "btn--primary"
+   
+feature_row2:
+  - image_path: /assets/images/Lion-vague_morphing.jpg
+    alt: "photo"
+    title: "Dernières actualités"
+    excerpt: "Vous trouverez dans cette rubrique tout ce qui fait l'actualité de Lyon Sauvetage Métropole. Nos derniers événements, nos activités ...<br><br>
+    Nous vous en souhaitons bonne lecture."
+    url: "/actualites/"
+    btn_label: "Lire plus"
+    btn_class: "btn--primary"
+  
+feature_row3:
+  - image_path: /assets/images/Lion-vague_morphing.jpg
+    alt: "Calendrier des formations"
+    title: "Calendrier des formations"
+    excerpt: "Nous proposons des formations tout au long de l'année en sauvetage et en secourisme également. Trouvez la date qui vous convient ainsi que le lieu. "
+    url: "/calendrier/"
+    btn_label: "Prendre date"
+    btn_class: "btn--primary"
+  
+feature_row4:
+  - image_path: /assets/images/Lion-vague_morphing.jpg
+    alt: "Vous voulez vous inscrire à une activité ou à une formation"
+    title: "Inscriptions"
+    excerpt: "Vous souhaitez vous inscrire à une activité sportive ou à une formation."
+    url: "/inscriptions/"
+    btn_label: "S'inscrire"
+    btn_class: "btn--primary"
+  
 ---
+<h3>Site en reconstruction, veuillez patienter quelques jours</h3>
+
+{% include feature_row id="intro" type="center" %}
+  
+{% include feature_row1 id="feature_row1" %}
+  
+  
+{% include feature_row id="feature_row3" type="right" %}
+  
+{% include feature_row id="feature_row4" type="left" %}

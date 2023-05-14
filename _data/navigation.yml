@@ -4,15 +4,47 @@ main:
     url: /section/
     child:
       - title: "École de Natation Sauvetage"
-        url: /section/#ecole_sauvetage/
+        url: /section/ecole_sauvetage/
+      - title: "Natation-sauvetage loisirs"
+        url: /section/sauvetage_loisir/
+      - title: "Aquagym"
+        url: /section/aquagym/
   - title: "Formations"
     url: /formations/
+    child:
+      - title: "Formations Continues 2023"
+        url: /formations/fc2023/
+      - title: "Gestes Qui Sauvent"
+        url: /formations/gqs/
+      - title: "Prévention  Secours Civiques niveau 1"
+        url: /formations/psc1/
+      - title: "Premiers Secours en Équipe niveau 1"
+        url: /formations/pse1/
+      - title: "Premiers Secours en Équipe niveau 2"
+        url: /formations/pse2/
+      - title: "Brevet National de Sécurité et Sauvetage Aquatique (BNSSA)"
+        url: /formations/bnssa/
+      - title: "Surveillant Sauveteur en Eaux Intérieures"
+        url: /formations/ssaei/
+      - title: "Surveillant Sauveteur sur le Littoral"
+        url: /formations/ssal/
+      - title: "Devenir Formateur"
+        url: /formations/picpae/
   - title: "Prévention des noyades"
     url: /prevention/
+    child:
+      - title: "Journées Nationales de Prévention de la Noyade"
+        url: /prevention/jnpn/
+      - title: "Intervention en milieu scolaire"
+        url: /prevention/intervention/
+      - title: "Natation-Sauvetage Scolaire"
+        url: /prevention/ecole_sauvetage/
+      - title: "Évènementiel"
+        url: /prevention/evenementiel/
   - title: "Qui sommes-nous ?"
     url: /lsm/
-  - title: "Sitemap"
-    url: /sitemap/
+  #- title: "Sitemap"
+  #  url: /sitemap/
 
 main2:
   - title: "Actualités"
@@ -40,20 +72,20 @@ main2:
     url: /contact/
 
 breadcrumb_links:
-   - link: societe
-     label: Société
-   - link: services
-     label: Services  
-   - link: opensource
-     label: Open Source
-   - link: tech
-     label: Tech'
-   - link: conferences
-     label: Conférences
-   - link: edition
-     label: Édition
+   - link: section
+     label: Section Sportive
+   - link: formations
+     label: Formations  
+   - link: prevention
+     label: Prévention des noyades
+   - link: calendrier
+     label: Calendrier
+   - link: lsm
+     label: Qui sommes-nous ?
    - link: actualites
      label: Actualités
+   - link: inscription
+     label: Inscriptions
    - link: references
      label: Références
    - link: rejoindre
