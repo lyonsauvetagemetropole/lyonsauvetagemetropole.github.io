@@ -1,12 +1,74 @@
 # main links
 main:
-  - title: "Quick-Start Guide"
-    url: https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
-  # - title: "About"
-  #   url: https://mmistakes.github.io/minimal-mistakes/about/
-  # - title: "Sample Posts"
-  #   url: /year-archive/
-  # - title: "Sample Collections"
-  #   url: /collection-archive/
-  # - title: "Sitemap"
-  #   url: /sitemap/
+  - title: "Section Sportive"
+    url: /section/
+    child:
+      - title: "École de Natation Sauvetage"
+        url: /section/#ecole_sauvetage/
+  - title: "Formations"
+    url: /formations/
+  - title: "Prévention des noyades"
+    url: /prevention/
+  - title: "Qui sommes-nous ?"
+    url: /lsm/
+  - title: "Sitemap"
+    url: /sitemap/
+
+main2:
+  - title: "Actualités"
+    url: /actualites/
+    #child:
+    #  - title: "Newsletter"
+    #    url: /actualites/newsletter/
+    #  - title: "Dans les médias"
+    #    url: /actualites/medias/
+    #  - title: "Archives"
+    #    url: /actualites/archives/
+  - title: "Calendrier des formations"
+    url: /calendrier/
+    child:
+    #  - title: "Ils nous font confiance"
+    #    url: /references/clients/ 
+    #  - title: "Cas Clients"
+    #   url: /references/casClients/ 
+    #  - title: "Hello World !"
+    #    url: /references/helloWorld/
+  - title: "S'inscrire"
+    url: /inscriptions/
+  
+  - title: "Contact"
+    url: /contact/
+
+breadcrumb_links:
+   - link: societe
+     label: Société
+   - link: services
+     label: Services  
+   - link: opensource
+     label: Open Source
+   - link: tech
+     label: Tech'
+   - link: conferences
+     label: Conférences
+   - link: edition
+     label: Édition
+   - link: actualites
+     label: Actualités
+   - link: references
+     label: Références
+   - link: rejoindre
+     label: Nous rejoindre
+   - link: archives
+     label: Archives
+   - link: blog
+     label: Blog
+   - link: postes
+     label: Nos offres d'emplois
+   - link: stages
+     label: Nos offres de stages
+   - link: technologies
+     label: Technologies  
+   - link: clients
+     label: Ils nous font confiance 
+   - link: medias
+     label: Dans les médias

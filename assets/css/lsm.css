@@ -1,0 +1,12 @@
+/*=============== Couleur des éléments du menu et toggle menu ==========*/
+.navicon, .navicon::before, .navicon::after {
+    background-color: white;
+}
+
+.greedy-nav__toggle:hover .navicon, .greedy-nav__toggle:hover .navicon::before,.greedy-nav__toggle:hover .navicon::after {
+    background-color: whitesmoke;
+}
+
+a.site-title {
+    color: #f9aa0c;
+}

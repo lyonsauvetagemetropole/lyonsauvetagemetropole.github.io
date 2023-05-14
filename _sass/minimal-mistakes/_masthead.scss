@@ -10,6 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
+  background-color: #292f6b;
 
   &__inner-wrap {
     @include clearfix;
@@ -31,6 +32,7 @@
 
     nav {
       z-index: 10;
+      background-color: #292f6b;
     }
 
     a {
@@ -64,9 +66,11 @@
   margin-right: 0;
   width: 100%;
   clear: both;
+  
 
   .site-nav {
     margin-left: 0;
+    
 
     @include breakpoint($small) {
       float: right;
@@ -85,6 +89,7 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
+  
 
   &--lg {
     padding-right: 2em;
