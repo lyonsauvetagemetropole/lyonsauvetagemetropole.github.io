@@ -12,8 +12,8 @@ main:
   - title: "Formations"
     url: /formations/
     child:
-      - title: "Formations Continues 2023"
-        url: /formations/fc2023/
+      #- title: "Formations Continues 2023"
+      #  url: /formations/fc2023/
       - title: "Gestes Qui Sauvent"
         url: /formations/gqs/
       - title: "Prévention  Secours Civiques niveau 1"
@@ -96,10 +96,6 @@ breadcrumb_links:
      label: Blog
    - link: postes
      label: Nos offres d'emplois
-   - link: stages
-     label: Nos offres de stages
-   - link: technologies
-     label: Technologies  
    - link: clients
      label: Ils nous font confiance 
    - link: medias

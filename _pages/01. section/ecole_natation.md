@@ -4,4 +4,4 @@ layout: single
 permalink: /section/ecole_natation/
 class: wide
 ---
-### Site en reconstruction, veuillez patientez quelques jours
+### Site en reconstruction, veuillez patienter quelques jours

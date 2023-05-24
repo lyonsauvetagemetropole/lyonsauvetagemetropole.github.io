@@ -37,7 +37,7 @@ a.site-title {
 }
 
 .greedy-nav a:hover {
-    color: red;
+    color: rgba(249, 170, 12, 0.8);
 }
 
 .fa, .fas {
